@@ -1,0 +1,70 @@
+nav.navbar, .navbar-default {
+    background-color: transparent !important;
+    margin: 0em;
+
+}
+
+.navbar-default {
+    background-image: none;
+    border: none;
+    border-radius: 0;
+    width: 100%;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: #f54f4f;
+    margin: 2em 2em 0.5em 2em;
+    border-radius: 5em;
+    padding: 0.5em 2em 0.5em 2em;
+    border-style: solid;
+    border-color: #f54f4f;
+    border-width: medium;
+    font-family: QuickSand;
+    font-weight: bold;
+    font-size: 1.25em;
+    text-align: center;
+
+}
+
+.navbar-default .navbar-brand {
+    color: #f54f4f;
+    padding-bottom: 5em;
+}
+
+.navbar-default .navbar-toggle {
+    margin-top: 2.5em;
+    border-color:#f54f4f;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #f54f4f;
+}
+
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    background-color: transparent;
+}
+
+.navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover {
+    color: white;
+    background-color: transparent;
+}
+
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+    color: white;
+    background-color : #f54f4f;
+}
+
+.navbar-default.center .navbar-inner {
+    text-align: center;
+}
+
+.navbar-default.center .navbar-inner .nav {
+    display:inline-block;
+    float: none;
+}
+
+
+.main-logo{
+    width:  70%;
+    height: auto;
+}
