@@ -8,4 +8,32 @@
     background-color: white;
     padding:0em;
     width: 100%;
+    text-align: center;
+    justify-content: center;
+}
+
+.header{
+    font-family: QuickSand;
+    font-size: 2em;
+    color: #3b3b3b;
+    padding: 2em 2em 1em 2em;
+}
+
+.form{
+    margin: 0em auto 1em auto;
+    width: 60%;
+}
+
+.submit{
+    color: #f54f4f;
+    background-color: white;
+    border-radius: 5em;
+    padding: 0.5em 2em 0.5em 2em;
+    border-style: solid;
+    border-color: #f54f4f;
+    border-width: medium;
+    font-family: QuickSand;
+    font-weight: bold;
+    font-size: 1.25em;
+    text-align: center;
 }
