@@ -61,16 +61,51 @@
 }
 
 
-.skills{
+.projects{
     background-color: white;
     width: 100%;
-    height: 60em;
+    height: auto;
+    text-align: center;
+    padding: 5em;
 }
 
-.projects{
+.projects-row{
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto ;
+    height: auto;
+
+}
+
+.projects-header{
+    font-family: QuickSand;
+    color: #3b3b3b;
+    font-size: 2em;
+    margin-top: 1em;
+
+}
+
+.fa-icon-projects{
+    color:  #f54f4f ;
+    margin-top: 0.5em;
+    margin-bottom: 1em;
+}
+
+.button-icon-projects{
+    border-style: solid;
+    border-width: thick;
+    border-radius: 4em;
+    border-color:  #f54f4f ;
+    padding: 10em 2em 4em 2em;
+}
+
+
+.contact-me{
     background-color:  #f54f4f;
     width:100%;
-    height: 60em;
+    text-align: center;
+    height: auto;
+    padding-bottom: 5em;
 }
 
 
@@ -108,7 +143,7 @@
     font-size: 1.45em;
     font-weight: bold;
     margin-top: 2em;
-    color:  #f54f4f;
+    color:   #f54f4f
 }
 
 .header-description{
@@ -117,4 +152,44 @@
     color: #3b3b3b;
     line-height: 150%;
 
+}
+
+.contact-logo{
+    width:  100px;
+    height: auto;
+    margin-top: 2em;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+}
+
+.contact-header{
+    color: white;
+    font-family: QuickSand;
+    font-size: 1.8em;
+}
+
+.find-me{
+    max-width: 30%;
+    margin-left: auto;
+    margin-right: auto ;
+    height: auto;
+
+}
+
+.button-icon{
+    border-style: solid;
+    border-width: medium;
+    border-radius: 3em;
+    border-color: white;
+    padding: 1.8em 1em 1em 1em;
+}
+
+.class-name{
+    margin-bottom: 5em;
+}
+
+.fa-icon-button{
+    color: white;
+    margin-top: 1.5em;
 }
