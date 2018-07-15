@@ -74,6 +74,8 @@
     margin-left: auto;
     margin-right: auto ;
     height: auto;
+    margin-top: 10em;
+    margin-bottom: 5em;
 
 }
 
@@ -93,10 +95,11 @@
 
 .button-icon-projects{
     border-style: solid;
-    border-width: thick;
-    border-radius: 4em;
+    border-width: 3em;
+    border-radius: 10em;
     border-color:  #f54f4f ;
-    padding: 10em 2em 4em 2em;
+    padding: 10em 2em 10em 2em;
+    vertical-align: center;
 }
 
 
@@ -162,6 +165,12 @@
     margin-left: auto;
     display: block;
 }
+
+.project-logo{
+    width:  60%;
+    height: auto;
+}
+
 
 .contact-header{
     color: white;

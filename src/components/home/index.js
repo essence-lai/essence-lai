@@ -326,15 +326,17 @@ export default class Home extends React.Component{
 
                 <Grid className="projects">
                     {this.renderProjects()}
-                    <Transition in={this.state.projects} timeout={100}>
-                        {(state) => (
-                            <h1 style={{
-                                ...defaultStyle,
-                                ...transitionStyles[state]
-                            }}
-                                className="projects-header">Check out some of my most recent projects</h1>
-                        )}
-                    </Transition>
+                    <Row>
+                        <Transition in={this.state.projects} timeout={100}>
+                            {(state) => (
+                                <h1 style={{
+                                    ...defaultStyle,
+                                    ...transitionStyles[state]
+                                }}
+                                    className="projects-header">Check out some of my most recent projects</h1>
+                            )}
+                        </Transition>
+                    </Row>
                     <Row className="projects-row show-grid">
                         <Transition in={this.state.projects} timeout={800}>
                             {(state) => (
@@ -343,7 +345,7 @@ export default class Home extends React.Component{
                                     ...transitionStyles[state]
                                 }}
                                      xs={12} md={4}>
-                                    <a className="button-icon-projects" href="https://github.com/essence-lai"><i className="fab fa-github fa-10x fa-icon-projects"></i></a>
+                                    <a className="button-icon-projects" href="https://github.com/essence-lai/panpacificgem"> <Image className="project-logo" src="../assets/panpacificlogo.png"/></a>
                                 </Col>
                             )}
                         </Transition>
@@ -354,7 +356,7 @@ export default class Home extends React.Component{
                                     ...transitionStyles[state]
                                 }}
                                      xs={12} md={4}>
-                                    <a className="button-icon-projects" href="https://github.com/essence-lai"><i className="fab fa-github fa-10x fa-icon-projects"></i></a>
+                                    <a className="button-icon-projects" href="https://github.com/essence-lai/Space-Invader-Android-App"><Image className="project-logo" src="../assets/gfliplogo.png"/></a>
                                 </Col>
                             )}
                         </Transition>
@@ -365,7 +367,7 @@ export default class Home extends React.Component{
                                     ...transitionStyles[state]
                                 }}
                                      xs={12} md={4}>
-                                    <a className="button-icon-projects" href="https://github.com/essence-lai"><i className="fab fa-github fa-10x fa-icon-projects"></i></a>
+                                    <a className="button-icon-projects" href="https://github.com/essence-lai/CPSC-304-Dempster-Cartel-Dataase"><Image className="project-logo" src="../assets/dempster.png"/></a>
                                 </Col>
                             )}
                         </Transition>
