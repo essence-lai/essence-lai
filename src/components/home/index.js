@@ -233,7 +233,7 @@ export default class Home extends React.Component{
                                                     Next Stop:
                                                 </h4>
                                                 <h5 className="header-description">
-                                                    Thailand
+                                                    Japan
                                                 </h5>
                                             </Col>
                                             <Col xs={4} md={4}>
@@ -268,6 +268,7 @@ export default class Home extends React.Component{
                                                     Places I have been to:
                                                 </h4>
                                                 <h5 className="header-description">
+                                                    Thailand<br/>
                                                     Vietnamn<br/>
                                                     Cambodia<br/>
                                                     Guang Zhou<br/>
@@ -345,7 +346,7 @@ export default class Home extends React.Component{
                                     ...transitionStyles[state]
                                 }}
                                      xs={12} md={4}>
-                                    <a className="button-icon-projects" href="https://github.com/essence-lai/panpacificgem"> <Image className="project-logo" src="../assets/panpacificlogo.png"/></a>
+                                    <a className="button-icon-projects" href="https://github.com/essence-lai/panpacificgem">Pan Pacific Gem</a>
                                 </Col>
                             )}
                         </Transition>
@@ -356,7 +357,7 @@ export default class Home extends React.Component{
                                     ...transitionStyles[state]
                                 }}
                                      xs={12} md={4}>
-                                    <a className="button-icon-projects" href="https://github.com/essence-lai/Space-Invader-Android-App"><Image className="project-logo" src="../assets/gfliplogo.png"/></a>
+                                    <a className="button-icon-projects" href="https://github.com/essence-lai/GFlip">GFlip</a>
                                 </Col>
                             )}
                         </Transition>
@@ -367,10 +368,32 @@ export default class Home extends React.Component{
                                     ...transitionStyles[state]
                                 }}
                                      xs={12} md={4}>
-                                    <a className="button-icon-projects" href="https://github.com/essence-lai/CPSC-304-Dempster-Cartel-Dataase"><Image className="project-logo" src="../assets/dempster.png"/></a>
+                                    <a className="button-icon-projects" href="https://github.com/essence-lai/CPSC-304-Dempster-Cartel-Dataase">Dempster Cartel</a>
                                 </Col>
                             )}
                         </Transition>
+                        {/*<Transition in={this.state.projects} timeout={1000}>*/}
+                            {/*{(state) => (*/}
+                                {/*<Col style={{*/}
+                                    {/*...defaultStyle,*/}
+                                    {/*...transitionStyles[state]*/}
+                                {/*}}*/}
+                                     {/*xs={4} md={4}>*/}
+                                    {/*<a className="button-icon-projects" href="https://github.com/essence-lai/Space-Invader-Android-App"><Image className="project-logo" src="../assets/gfliplogo.png"/></a>*/}
+                                {/*</Col>*/}
+                            {/*)}*/}
+                        {/*</Transition>*/}
+                        {/*<Transition in={this.state.projects} timeout={1200}>*/}
+                            {/*{(state) => (*/}
+                                {/*<Col style={{*/}
+                                    {/*...defaultStyle,*/}
+                                    {/*...transitionStyles[state]*/}
+                                {/*}}*/}
+                                     {/*xs={4} md={4}>*/}
+                                    {/*<a className="button-icon-projects" href="https://github.com/essence-lai/CPSC-304-Dempster-Cartel-Dataase"><Image className="project-logo" src="../assets/dempster.png"/></a>*/}
+                                {/*</Col>*/}
+                            {/*)}*/}
+                        {/*</Transition>*/}
                     </Row>
                 </Grid>
 
