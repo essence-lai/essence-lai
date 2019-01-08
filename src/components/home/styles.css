@@ -72,7 +72,7 @@
     height: auto;
     margin-right: auto;
     margin-left: auto;
-    width: 70%;
+    width: 100%;
     padding: 5em;
     margin-top: 2em;
     margin-bottom: 5em;
@@ -101,7 +101,7 @@
     font-family: QuickSand;
     background-color:  #f54f4f;
     color: white;
-    height: 40%;
+    height: auto;
 }
 
 .button-icon-projects:hover {

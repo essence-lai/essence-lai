@@ -372,28 +372,6 @@ export default class Home extends React.Component{
                                 </Col>
                             )}
                         </Transition>
-                        {/*<Transition in={this.state.projects} timeout={1000}>*/}
-                            {/*{(state) => (*/}
-                                {/*<Col style={{*/}
-                                    {/*...defaultStyle,*/}
-                                    {/*...transitionStyles[state]*/}
-                                {/*}}*/}
-                                     {/*xs={4} md={4}>*/}
-                                    {/*<a className="button-icon-projects" href="https://github.com/essence-lai/Space-Invader-Android-App"><Image className="project-logo" src="../assets/gfliplogo.png"/></a>*/}
-                                {/*</Col>*/}
-                            {/*)}*/}
-                        {/*</Transition>*/}
-                        {/*<Transition in={this.state.projects} timeout={1200}>*/}
-                            {/*{(state) => (*/}
-                                {/*<Col style={{*/}
-                                    {/*...defaultStyle,*/}
-                                    {/*...transitionStyles[state]*/}
-                                {/*}}*/}
-                                     {/*xs={4} md={4}>*/}
-                                    {/*<a className="button-icon-projects" href="https://github.com/essence-lai/CPSC-304-Dempster-Cartel-Dataase"><Image className="project-logo" src="../assets/dempster.png"/></a>*/}
-                                {/*</Col>*/}
-                            {/*)}*/}
-                        {/*</Transition>*/}
                     </Row>
                 </Grid>
 
