@@ -47,18 +47,167 @@
 .about-me{
     background-color:  #f54f4f;
     width:100%;
-    height: 30em;
+    padding: 8em 5em 5em 5em;
+    text-align: center;
 }
 
-
-.skills{
-    background-color: white;
-    width: 100%;
-    height: 60em;
+.about-me-description{
+    font-family: QuickSand;
+    font-size: 2em;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 40em;
 }
+
 
 .projects{
+    background-color: white;
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+
+.projects-row{
+    height: auto;
+    margin-right: auto;
+    margin-left: auto;
+    width: 100%;
+    padding: 5em;
+    margin-top: 2em;
+    margin-bottom: 5em;
+
+}
+
+.projects-header{
+    font-family: QuickSand;
+    color: #3b3b3b;
+    font-size: 2em;
+    margin-top: 1.5em;
+
+}
+
+.fa-icon-projects{
+    color:  #f54f4f ;
+    margin-top: 0.5em;
+    margin-bottom: 1em;
+}
+
+.button-icon-projects{
+    border-radius: 0.5em;
+    border-color:  #f54f4f ;
+    padding: 2em;
+    font-size: 2em;
+    font-family: QuickSand;
+    background-color:  #f54f4f;
+    color: white;
+    height: auto;
+}
+
+.button-icon-projects:hover {
+    color: #f54f4f;
+    background-color: white;
+
+}
+
+
+
+.contact-me{
     background-color:  #f54f4f;
     width:100%;
-    height: 60em;
+    text-align: center;
+    height: auto;
+    padding-bottom: 5em;
+}
+
+
+.fa-grid{
+    margin-top: 5em;
+    margin-bottom: 2em;
+    padding: 0em 5em 0em 5em;
+}
+
+.fa-icon{
+    color: white;
+}
+
+.skill-grid{
+    background-color: white;
+    padding: 1em 5em 5em 5em;
+    border-radius: 2em;
+}
+
+.skills-description{
+    font-family: QuickSand;
+    font-size: 1.4em;
+    color: #3b3b3b;
+}
+
+.skills-title{
+    font-family:QuickSand;
+    font-size: 2em;
+    font-weight: bold;
+    color: #3b3b3b;
+}
+
+.header-title{
+    font-family:QuickSand;
+    font-size: 1.45em;
+    font-weight: bold;
+    margin-top: 2em;
+    color:   #f54f4f
+}
+
+.header-description{
+    font-family:QuickSand;
+    font-size: 1.2em;
+    color: #3b3b3b;
+    line-height: 150%;
+
+}
+
+.contact-logo{
+    width:  100px;
+    height: auto;
+    margin-top: 2em;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+}
+
+.project-logo{
+    width:  60%;
+    height: auto;
+}
+
+
+.contact-header{
+    color: white;
+    font-family: QuickSand;
+    font-size: 1.8em;
+}
+
+.find-me{
+    max-width: 60%;
+    margin-left: auto;
+    margin-right: auto ;
+    height: auto;
+
+}
+
+.button-icon{
+    border-style: solid;
+    border-width: medium;
+    border-radius: 3em;
+    border-color: white;
+    padding: 1.8em 1em 1em 1em;
+}
+
+.class-name{
+    margin-bottom: 5em;
+}
+
+.fa-icon-button{
+    color: white;
+    margin-top: 1.5em;
 }
