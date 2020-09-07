@@ -130,7 +130,7 @@ export default class Home extends React.Component{
                                 ...defaultStyle,
                                 ...transitionStyles[state]
                             }}
-                                className="main-description">Aspiring Software Engineer, Mixologist,  Adventurous Traveller</h4>
+                                className="main-description">Full Stack Developer, Mixologist,  Adventurous Traveller</h4>
                         )}
                     </Transition>
                     <Transition in={this.state.name} timeout={1200}>
@@ -154,9 +154,9 @@ export default class Home extends React.Component{
                             }}
                                 className="about-me-description">
                                 Hi! I'm Essence (prounounced "Ee-sense),
-                                a junior developer with 2 years internship experience.
-                                Currently attending my last year undergraduate studies
-                                at UBC in Computer Science and Mathematics </h1>
+                                a Intermediate Full-Stack developer with 3 years industry experience.
+                                Currently playing around with mobile frameworks, react-native and flutter.
+                            </h1>
                         )}
                     </Transition>
                     <Transition in={this.state.aboutMe} timeout={800}>
